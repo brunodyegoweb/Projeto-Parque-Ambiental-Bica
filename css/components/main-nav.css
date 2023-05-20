@@ -1,0 +1,6 @@
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-right: 15px;
+}
