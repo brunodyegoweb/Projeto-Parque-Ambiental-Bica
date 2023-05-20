@@ -1,0 +1,13 @@
+.span {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(18, 187, 18);
+}
+
+.paragraph, .sub-title {
+    z-index: 2;
+    position: relative;
+}
