@@ -4,10 +4,14 @@
     z-index: 1;
     width: 150px;
     height: 150px;
+    left: 20px;
     background-color: rgb(18, 187, 18);
 }
 
 .paragraph, .sub-title {
     z-index: 2;
     position: relative;
+    align-items: end;
+    left: 35px;
+    top:50px
 }
