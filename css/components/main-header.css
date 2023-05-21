@@ -1,7 +1,9 @@
 .main-header {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    min-height: 90vh;
     justify-content: space-between;
     margin-bottom: 20px;
     background-image: url(../../asset/lago.jpg);
+    background-size: cover;
 }

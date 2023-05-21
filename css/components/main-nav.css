@@ -3,3 +3,11 @@
     gap: 50px;
     margin-right: 15px;
 }
+
+.main-nav > a {
+    color: #fff;
+}
+
+.main-nav > a:hover {
+    font-weight: bold;
+}
