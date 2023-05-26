@@ -1,0 +1,18 @@
+.academy-photo {
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+
+.academy-photo > i {
+    position: absolute;
+}
+
+.subtitle {
+    font-weight:bold ;
+}
+
+.atividade {
+    font-size: 2rem;
+    
+}
