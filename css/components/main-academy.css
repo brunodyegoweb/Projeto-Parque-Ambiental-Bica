@@ -7,3 +7,13 @@
     gap: 2rem;
     border: 2px solid red;
 }
+
+.paragraphAcademy {
+    font-weight: bold ;
+}
+
+.textAcademy {
+    font-size: 2rem;
+    padding: 10px;
+    
+}
