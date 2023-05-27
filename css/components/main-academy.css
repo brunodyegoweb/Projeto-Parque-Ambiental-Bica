@@ -1,5 +1,9 @@
 .main-academy {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex: 2 1 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: right;
+    gap: 2rem;
+    border: 2px solid red;
 }

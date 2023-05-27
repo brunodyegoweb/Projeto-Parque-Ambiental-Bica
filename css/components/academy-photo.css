@@ -1,7 +1,7 @@
 .academy-photo {
     display: flex;
+    flex: 1 1 300px;
     position: relative;
-    gap: 20px;
 }
 
 .academy-photo > i {
