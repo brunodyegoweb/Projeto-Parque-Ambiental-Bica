@@ -1,7 +1,7 @@
 .service-bica {
     display: flex;
     position: relative;
-    background-color: red;
+    flex-direction: column;
 }
 
 .service-bica > i {
