@@ -2,6 +2,7 @@
     display: flex;
     flex: 1 1 300px;
     position: relative;
+    width: 100%;
 }
 
 .academy-photo > i {

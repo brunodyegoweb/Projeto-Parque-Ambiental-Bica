@@ -1,7 +1,9 @@
 .service-bica {
+    display: flex;
     position: relative;
+    background-color: red;
 }
 
-.servico-bica > i {
+.service-bica > i {
     position: absolute;
 }
