@@ -1,0 +1,10 @@
+.about-bica {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 3rem;
+    background-image: url(../../asset/tartaruga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
