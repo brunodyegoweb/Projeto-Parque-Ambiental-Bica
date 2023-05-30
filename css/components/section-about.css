@@ -1,5 +1,9 @@
 .section-about {
     display: flex;
+    background-image: url(../../asset/trilha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
 
 .ri-whatsapp-line.-wpp {
