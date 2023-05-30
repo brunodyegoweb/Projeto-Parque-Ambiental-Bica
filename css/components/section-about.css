@@ -1,0 +1,13 @@
+.section-about {
+    display: flex;
+}
+
+.ri-whatsapp-line.-wpp {
+    background-color: transparent;
+    color: black;
+}
+
+.ri-leaf-line.-wpp {
+    background-color: transparent;
+    color: black;
+}
