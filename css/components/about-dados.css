@@ -8,5 +8,14 @@
     padding: 2rem;
     margin-top: -1px;
     margin-left: -1px;
+}
 
+.about-dados:first-child {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.about-dados:last-child {
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
 }
