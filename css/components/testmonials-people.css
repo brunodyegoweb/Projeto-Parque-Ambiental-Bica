@@ -1,0 +1,30 @@
+.testmonials-people {
+    display: flex;  
+    flex: 1 1 0;  
+}
+
+.testmonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid red;
+}
+
+.photo > i {
+    position: absolute;
+}
