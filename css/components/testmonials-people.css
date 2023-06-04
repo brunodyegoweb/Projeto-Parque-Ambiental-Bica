@@ -1,11 +1,23 @@
 .testmonials-people {
     display: flex;  
-    flex: 1 1 0;  
+    flex: 1 1 0; 
+    gap: 2rem;
+   align-items: end;
+   justify-content: end;
 }
 
 .testmonials {
     display: flex;
     flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+}
+
+.testmonials > img {
+    width: 100%;
+    height: 100%;
+
+
 }
 
 .author {
@@ -15,7 +27,7 @@
 
 .authorInfo {
     display: flex;
-    flex-direction: column;
+    padding: 3rem;
 }
 
 .photo {
