@@ -1,33 +1,22 @@
 .testmonials-people {
     display: flex;  
-    flex: 1 1 0; 
-    gap: 2rem;
-   align-items: end;
-   justify-content: end;
+    align-items: center;
 }
 
 .testmonials {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap: 1rem;
-}
-
-.testmonials > img {
-    width: 100%;
-    height: 100%;
-
-
+ padding: 3rem;
 }
 
 .author {
     display: flex;
-    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
 }
 
-.authorInfo {
-    display: flex;
-    padding: 3rem;
+.author > img {
+    height: 100%;
+    width: 100%;
 }
 
 .photo {
