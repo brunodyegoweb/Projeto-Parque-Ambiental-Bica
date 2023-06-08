@@ -1,8 +1,8 @@
 .testmonials-people {
     display: flex; 
-    flex-wrap: wrap; 
     gap: 2rem;
     align-items: center;
+    border: 2px solid #ff0000;
 
 }
 
@@ -11,8 +11,10 @@
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     text-align: right;
+    border: 2px solid #000;
+    align-items: center;
 }
 
 .author {
@@ -29,9 +31,9 @@
 
 .photo {
     display: flex;
-    flex-direction: column;
+    flex: 1 1 300px;
     position: relative;
-    border: 2px solid red;
+    border: 2px solid #ffff00;
 }
 
 .photo > i {
