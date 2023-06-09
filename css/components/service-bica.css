@@ -3,8 +3,10 @@
     position: relative;
     flex-direction: column;
     background-color: #eff3f4;
+    padding: 10px;
 }
 
 .service-bica > i {
     position: absolute;
 }
+
