@@ -1,4 +1,8 @@
 .service-text {
    text-align: center;
-   margin-top: 20px;
+   margin-top: 20px;   
+}
+
+.service-text > h3 {
+    color: #9acd32;
 }

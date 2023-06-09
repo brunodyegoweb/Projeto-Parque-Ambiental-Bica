@@ -1,3 +1,10 @@
+:root {
+    --first-color: #008000;
+    --second-color: #9acd32
+    --third-color: #fff
+    --fifth-color: #2ed6ff
+}
+
 .main-banner {
     position: absolute;
     top: 120px;
@@ -13,7 +20,15 @@
     background-color: rgb(18, 187, 18);
 }
 
-.paragraph, .sub-title {
+.subTitle {
+   color: #2ed6ff
+}
+
+.paragraph {
+    color:#fff
+}
+
+.paragraph, .subTitle {
     z-index: 2;
     position: relative;
     align-items: end;
