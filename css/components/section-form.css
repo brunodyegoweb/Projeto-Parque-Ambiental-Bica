@@ -1,8 +1,7 @@
 .section-form {
     display: flex;
-    background-color: #25c23f;
-    border: 2px solid yellow;
-    
+    flex: 1 1 0;
+    background-color: #25c23f;    
 }
 
 .section-form  form {
@@ -10,21 +9,21 @@
     flex-direction: column;
     gap: 1rem;
     padding: 2rem;
-    width: 500px;
 }
 
 .section-form  input,
 .section-form  textarea,
-.formImput  input {
-    flex: 2rem;    
+.formInput input {
+    flex: 3rem;    
 }
 
 .section-form > i {
     position: absolute;
 }
 
-.formImput {
+.formInput {
     display: flex;
+    gap: 1rem;
 }
 
 .form {
