@@ -15,7 +15,6 @@
 .section-form  input,
 .section-form  textarea {
     flex: 2.8rem; 
-    border: none;  
 }
 
 .formInput {
@@ -40,4 +39,12 @@
     margin-top: 22.5px;
     gap: 1rem;
     width: 900px;
+}
+
+.button {
+    align-self: start;
+    background-color: transparent;
+    border: 2px solid #9acd32;
+    color: #fff;
+    padding: 10px;
 }
