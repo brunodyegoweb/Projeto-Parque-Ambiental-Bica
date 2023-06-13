@@ -9,12 +9,18 @@
     flex-direction: column;
     gap: 1rem;
     padding-left: 2rem;
+    width: 650px;
 }
 
 .section-form  input,
-.section-form  textarea,
-.formInput input {
-    flex: 3rem;    
+.section-form  textarea {
+    flex: 2.8rem; 
+    border: none;  
+}
+
+.formInput {
+    flex: 2.8rem;
+    border: none;
 }
 
 .section-form > i {
