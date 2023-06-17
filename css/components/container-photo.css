@@ -4,3 +4,13 @@ display: flex;
 gap: 2rem;
 padding: 2rem;
 }
+
+.service-text {
+    text-align: center;
+    margin-top: 20px;   
+ }
+ 
+ .service-text > h3 {
+     color: #9acd32;
+ }
+ 

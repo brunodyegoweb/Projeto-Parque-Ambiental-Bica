@@ -2,11 +2,15 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    background-color: #eff3f4;
+    background-color: #97cea0;
     padding: 10px;
 }
 
 .service-bica > i {
     position: absolute;
+}
+
+.service-bica p {
+    color: #fff;
 }
 
