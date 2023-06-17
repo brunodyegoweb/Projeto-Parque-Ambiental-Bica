@@ -13,4 +13,21 @@ padding: 2rem;
  .service-text > h3 {
      color: #9acd32;
  }
+
+ .serviceBica {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #97cea0;
+    padding: 10px;
+}
+
+.serviceBica > i {
+    position: absolute;
+}
+
+.serviceBica p {
+    color: #fff;
+}
+
  
