@@ -6,7 +6,7 @@
 
 .main-nav > a {
     color: #fff;
-    
+    text-shadow: 1px 1px 2px #0000004f;
 }
 
 .main-nav > a:hover {
