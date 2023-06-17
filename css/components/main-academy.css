@@ -8,10 +8,10 @@
     gap: 2rem;
 }
 
-.paragraphAcademy {
+.paragraph.-academy {
     font-weight: bold ;
-    text-transform: uppercase;
-    color: #9acd32;
+    text-align: center;
+    padding: 10px;
 }
 
 .textAcademy {
