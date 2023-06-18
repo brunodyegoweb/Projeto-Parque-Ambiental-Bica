@@ -5,15 +5,14 @@ gap: 2rem;
 padding: 2rem;
 }
 
-.service-text {
+.serviceText {
     text-align: center;
     margin-top: 20px;   
  }
  
- .service-text > h3 {
-     color: #9acd32;
+ .serviceText > p {
+    color: #fff  
  }
-
  .serviceBica {
     display: flex;
     position: relative;
@@ -26,8 +25,5 @@ padding: 2rem;
     position: absolute;
 }
 
-.serviceBica p {
-    color: #fff;
-}
 
  
