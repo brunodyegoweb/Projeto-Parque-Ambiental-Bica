@@ -3,12 +3,12 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    color: #000;
+    color: #fff
 }
 
 .ri-whatsapp-line.-wpp {
     background-color: transparent;
-    color: black;
+    color: #0000007c;
 }
 
 .ri-leaf-line.-wpp {
