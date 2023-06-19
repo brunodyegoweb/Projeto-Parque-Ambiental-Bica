@@ -3,18 +3,14 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 2rem;
-    color: #fff
+    color: #fff;
 }
 
-.ri-whatsapp-line.-wpp {
+.ri-whatsapp-line.-wpp, .ri-leaf-line.-wpp {
     background-color: transparent;
     color: #0000007c;
 }
 
-.ri-leaf-line.-wpp {
-    background-color: transparent;
-    color: black;
-}
 
 .aboutBica {
     display: flex;
@@ -49,11 +45,14 @@
 }
 
 .aboutDados:first-child {
-    border-bottom: 2px solid #000;
-    border-right: 2px solid #000;
+    border-bottom: 2px solid #0000007c;
+    border-right: 2px solid #0000007c;
 }
 
 .aboutDados:last-child {
-    border-top: 2px solid #000;
-    border-left: 2px solid #000;
+    border-top: 2px solid #0000007c;
+    border-left: 2px solid #0000007c;
+}
+.aboutDados > p {
+    padding-top: 10px;
 }
