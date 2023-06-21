@@ -1,7 +1,8 @@
 .section-form {
     display: flex;
     flex: 1 1 0;
-    background-color: #50c263;    
+    background-color: #50c263;   
+    padding-bottom: 30px; 
 }
 
 .section-form  h3 {
