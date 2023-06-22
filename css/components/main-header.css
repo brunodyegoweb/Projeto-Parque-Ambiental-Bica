@@ -19,12 +19,13 @@
     margin-right: 15px;
 }
 
-.mainNav > a {
+.mainNav  a {
     color: #fff;
     text-shadow: 1px 1px 2px #0000004f;
+    transition: all 250ms;
 }
 
-.mainNav > a:hover {
-    font-weight: bold;
+.mainNav  a:hover {
+    filter: brightness(1.2);
     color: #2ed6ff;
 }
