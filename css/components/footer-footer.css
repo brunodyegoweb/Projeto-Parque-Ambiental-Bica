@@ -17,11 +17,12 @@
     margin-top: 10px;
 }
 
-.link {
+.link i {
+    color: #2ed6ff;
     transition: all 250ms;
 }
 
-.link:hover {
+.link i:hover {
     filter: brightness(1.2);
-    transform: translateY(-2px);
+    color: #fff;
 }
