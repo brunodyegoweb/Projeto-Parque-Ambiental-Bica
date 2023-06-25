@@ -42,3 +42,9 @@
 .photo > i {
     position: absolute;
 }
+
+@media (max-width: 420px) {
+    .testmonials-people {
+        flex-direction: column;       
+    }
+}
