@@ -43,7 +43,7 @@
     position: absolute;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 428px) {
     .testmonials-people {
         flex-direction: column;  
         margin: 10px;
