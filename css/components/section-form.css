@@ -1,6 +1,5 @@
 .section-form {
-    display: flex;
-    flex: 1 1 0;
+    display: flex;    
     background-color: #50c263;   
     padding-bottom: 30px; 
 }
@@ -58,5 +57,14 @@
 @media (max-width: 420px) {
     .section-form {
         flex-direction: column;
+        gap: 0;
+    }
+
+    .formInput {
+        flex-direction: column;
+    }
+
+    .section-form  form {
+        width: 350px;
     }
 }
