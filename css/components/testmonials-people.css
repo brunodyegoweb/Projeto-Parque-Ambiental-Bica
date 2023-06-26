@@ -13,7 +13,7 @@
 .testmonials {
     flex: 2 1 0;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     flex-direction: column;
     justify-content: left;
     text-align: right;
@@ -29,8 +29,8 @@
 }
 
 .author > img {
-    height: 100%;
-    width: 100%;
+    height: 60%;
+    width: 60%;
 }
 
 .photo {
@@ -45,6 +45,7 @@
 
 @media (max-width: 420px) {
     .testmonials-people {
-        flex-direction: column;       
+        flex-direction: column;  
+        margin: 10px;
     }
 }
