@@ -25,14 +25,12 @@
 }
 
 .formInput {
+    display: flex;
+    gap: 1rem;
     flex: 2.8rem;
     border: none;
 }
 
-.formInput {
-    display: flex;
-    gap: 1rem;
-}
 
 .form {
     display: flex;
@@ -55,4 +53,10 @@
     border: 2px solid #9acd32;
     color: #fff;
     padding: 10px;
+}
+
+@media (max-width: 420px) {
+    .section-form {
+        flex-direction: column;
+    }
 }
