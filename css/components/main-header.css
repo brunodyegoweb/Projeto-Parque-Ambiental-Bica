@@ -40,7 +40,7 @@
     color: #2ed6ff;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 884px) {
 
     .main-header > i {
         display: block;
