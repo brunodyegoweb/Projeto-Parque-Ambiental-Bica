@@ -40,6 +40,30 @@
     color: #2ed6ff;
 }
 
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    width: 200px; 
+    top: 50%;   
+    left: 50%;
+    transform: translateX(-20%) translateY(-50%);
+}
+
+.carrosselImg {
+    display: flex;
+    gap: 2rem;
+    position: absolute;   
+} 
+
+.carrosselImg > img {
+    height: 200px;
+    width: 200px;
+}
+
 @media (max-width: 884px) {
 
     .main-header > i {
