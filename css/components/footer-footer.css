@@ -26,3 +26,18 @@
     filter: brightness(1.2);
     color: #fff;
 }
+
+@media (max-width: 320px) {
+    .footer-footer i {
+        display: inline-block;
+        width: 1px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .footer-footer i {
+            display: inline-block;
+            width: 1px;
+    }
+}
