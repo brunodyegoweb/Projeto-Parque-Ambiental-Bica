@@ -86,3 +86,10 @@
         width: 342px;
     }
 }
+
+@media (max-width: 884px) {
+    .section-form {
+      flex-direction: column;
+      align-items: center;
+    }
+}
