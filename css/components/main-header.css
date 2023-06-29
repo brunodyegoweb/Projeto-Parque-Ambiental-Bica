@@ -41,9 +41,7 @@
 }
 
 .carrossel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;    
     position: relative;
     overflow: hidden;
     height: 500px;
@@ -55,7 +53,8 @@
 
 .carrosselImg {
     display: flex;
-    gap: 2rem;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
     position: absolute;   
 } 
 
