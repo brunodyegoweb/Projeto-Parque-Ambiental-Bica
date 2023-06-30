@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
 
     <!--Header-->
     <header id="header">
@@ -39,9 +39,9 @@
         <div class="main-header">
 
             <h1 class="title">Parque Ambiental do Bica</h1>
-            <i class="ri-menu-line"></i>
+            <i class="ri-menu-line" onclick="clicar()"></i>
 
-            <nav class="mainNav">
+            <nav class="mainNav" id="menu">
 
                 <a href="#header">Ínicio</a>
                 <a href="#main">Serviços</a>
@@ -347,6 +347,7 @@
     </footer>
 
     <script src="js/components/carrossel.js"></script>
+    <script src="js/components/clicar.js"></script>
 
 </body>
 </html>
