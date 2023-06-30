@@ -72,7 +72,7 @@
     border: 4px solid greenyellow;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 428px) {
     .mainNav {
         flex-direction: column;
         align-items: center;
